@@ -1,9 +1,9 @@
 function wynik() 
 {
-    let a = Number(document.getElementById("a").value);
+    let a = Number(document.getElementById("c").value);
     let b = Number(document.getElementById("b").value);
 
-    let suma = a + b;
+    let suma = c + b;
 
-    document.getElementById("wynik").innerText = a + " + " + b + " = " + suma;
+    document.getElementById("wynik").innerText = c + " + " + b + " = " + suma;
 }
